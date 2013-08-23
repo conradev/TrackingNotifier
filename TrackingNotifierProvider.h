@@ -27,7 +27,7 @@
 @interface BBBulletinRequest : BBBulletin
 @end
 
-extern void BBDataProviderAddBulletin(id <BBDataProvider>, BBBulletin *);
+extern void BBDataProviderAddBulletin(id<BBDataProvider>, BBBulletin *);
 
 #define TRACKING_NOTIFICATION_NAME "com.conradkramer.trackingnotifier"
 

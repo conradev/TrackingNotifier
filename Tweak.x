@@ -2,9 +2,9 @@
 
 #import "TrackingNotifierProvider.h"
 
-%hook AOSFMIPBaseServiceProvider
+%hook AOSCommandHandlerLocate
 
-- (void)ackLocateCommand:(NSString *)command withStatusCode:(NSInteger)code andStatusMessage:(NSString *)message {
+- (void)handleCommand {
 	notify_post(TRACKING_NOTIFICATION_NAME);
 	%orig();
 }
