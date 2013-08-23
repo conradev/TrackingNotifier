@@ -1,0 +1,12 @@
+Package: com.conradkramer.trackingnotifier
+Depends: firmware (>= 5.0), mobilesubstrate, com.chpwn.weeloader (>= 1.1)
+Name: TrackingNotifier
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Notifies you when you are being tracked!
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Conrad Kramer <support@kramerapps.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: conradkramer
+Tag: purpose::extension
