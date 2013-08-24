@@ -37,7 +37,7 @@
 #pragma mark - BBDataProvider
 
 - (NSArray *)sortDescriptors {
-	return [NSArray arrayWithObject:[NSSortDescriptor sortDescriptorWithKey:@"date" ascending:NO]];
+	return @[[NSSortDescriptor sortDescriptorWithKey:@"date" ascending:NO]];
 }
 
 - (NSArray *)bulletinsFilteredBy:(unsigned)filter count:(unsigned)count lastCleared:(id)cleared {
