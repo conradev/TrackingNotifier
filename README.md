@@ -44,7 +44,7 @@ mv ldid theos/bin/
 rm ldid.zip
 ```
 
-To build a Debian package, `dpkg` is required. You can install these using [Homebrew](http://mxcl.github.com/homebrew/):
+To build a Debian package, `dpkg` is required. You can install it using [Homebrew](http://mxcl.github.com/homebrew/):
 
 ``` sh
 brew install dpkg
